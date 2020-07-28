@@ -5,3 +5,13 @@ adjust the source code to your liking (insert your last.fm api key, and replace 
 requirements:
 profanity
 curl
+
+installation:
+make && make install 
+
+(no need for root)
+
+in profanity do
+/plugin load profanity-lastfm.so
+
+(only needed once)
