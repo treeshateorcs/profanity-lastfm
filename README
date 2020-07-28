@@ -3,5 +3,5 @@ this is a profanity plugin that inserts the song that is now playing on your las
 adjust the source code to your liking (insert your last.fm api key, and replace username)
 
 requirements:
+profanity
 curl
-playerctl
