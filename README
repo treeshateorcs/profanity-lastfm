@@ -5,6 +5,3 @@ adjust the source code to your liking (insert your last.fm api key, and replace 
 requirements:
 curl
 playerctl
-
-TODO:
-switch to dbus, instead of playerctl
