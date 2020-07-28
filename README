@@ -1,0 +1,10 @@
+this is a profanity plugin that inserts the song that is now playing on your last.fm into your xmpp status
+
+adjust the source code to your liking (insert your last.fm api key, and replace username)
+
+requirements:
+curl
+playerctl
+
+TODO:
+switch to dbus, instead of playerctl
