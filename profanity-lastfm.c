@@ -52,10 +52,7 @@ void *cb(void *unused) {
       if (strcmp(last_res, res) != 0) {
         prof_send_stanza(res);
       }
-    } else {
-      prof_send_stanza("<presence><status></status></presence>");
     }
-
     strcpy(last_res, res);
     struct timespec ts;
     ts.tv_sec = TIMEOUT;
