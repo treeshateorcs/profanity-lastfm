@@ -29,7 +29,7 @@ size_t write_cb(void *ptr, size_t size, size_t nmemb, char *res) {
 }
 
 void *cb(void *unused) {
-  (void)unused;
+  (void)unused; // cast to void to supress an unused variable warning
   char res[1024];
   char last_res[1024];
   CURLcode ret;
